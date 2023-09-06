@@ -1,5 +1,5 @@
 import {configureStore, Action, ThunkAction} from "@reduxjs/toolkit"
-import { Authreducer } from "../api/auth"
+import authApi, { Authreducer } from "../api/auth"
 import productApi , {ProductReducer} from '../api/product'
 
 
@@ -9,7 +9,7 @@ export const store= configureStore({
         auth: Authreducer,
         products : ProductReducer
     },
-    middleware:(getDefaultMiddleware)=>getDefaultMiddleware().concat(productApi.middleware)
+    middleware:(getDefaultMiddleware)=>getDefaultMiddleware().concat(productApi.middleware, authApi.middleware)
 })
 export type RootSate = ReturnType<typeof store.getState>
 export type AppDispath= typeof store.dispatch
