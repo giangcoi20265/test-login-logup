@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "giang"
+    },
+    {
+      "id": 2,
+      "name": "giang2"
+    },
+    {
+      "id": 3,
+      "name": "giang3"
+    }
+  ],
+  "users": [
+    {
+      "email": "ngoc@gmail.com",
+      "password": "$2a$10$XLIKJQ6hrnEqyMTZ/IIswOn8VmwL30XqnOw/hh5mBZSEA735tAYGi",
+      "name": "Đào Minh Ngọc",
+      "confirmPassword": "12345",
+      "id": 1
+    },
+    {
+      "email": "giang123@email.com",
+      "password": "$2a$10$TUwAnyDhP9QBgfrSLexzHewQ2.Yv6lZ7d7s4YiB4YKX5n6D4JtfBW",
+      "name": "huhuh",
+      "confirmPassword": "456789",
+      "id": 2
+    },
+    {
+      "email": "Thuy12@gmail.com",
+      "password": "$2a$10$NUWGDxDmlUJuwWgdzOPI4uS.USX9c3zyfAQA9NWeZuN6uaTJyIpMK",
+      "name": "kaka",
+      "confirmPassword": "456789",
+      "id": 3
+    },
+    {
+      "email": "Thuy124567@gmail.com",
+      "password": "$2a$10$OgfLh53h/dFS0t4y02SgFuhk1b2EqYawgWeR1HOs78.MD21wJ0ffq",
+      "name": "h",
+      "confirmPassword": "123456",
+      "id": 4
+    },
+    {
+      "email": "a@gmail.com",
+      "password": "$2a$10$J.COGiHN8WVMfIge.qA4A.UT42rQvEPZePOZo5JFziK3atLiFQQL.",
+      "name": "a",
+      "confirmPassword": "123456",
+      "id": 5
+    }
+  ]
+}
